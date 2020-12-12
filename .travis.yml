@@ -8,7 +8,7 @@ before_script:
 script:
   - cmake ../lab6
   - make -j
-  - cd ./bin/
-  - ./Test_ArrayList
+  - ls
+  - ./test/ArrayList_Test
 notifications:
   email: false

@@ -6,7 +6,7 @@ before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../Lab6
+  - cmake ../lab6
   - make -j
   - cd ./bin/
   - ./Test_ArrayList

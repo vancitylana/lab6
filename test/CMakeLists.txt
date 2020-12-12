@@ -1,4 +1,4 @@
-set(target Test_ArrayList)
+set(target ArrayList_Test)
 
 file(GLOB hdrs "*.h*")
 file(GLOB srcs "*.cpp")
